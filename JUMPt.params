@@ -1,0 +1,26 @@
+%Parameter file for JUMPt program (Version: 2.0.0)
+%authors: Surendhar Reddy Chepyala, Junmin Peng, Abhijit Dasgupta
+% Version: 2.0.0: New Features: Setting 2 default; optimization lsqnonlin default
+% compatible with 3,4, and 5 time points (including 0 day)
+% calculating apparent T50 also
+% modify the parametrs as necessary
+
+setting = 2 ; %default
+% setting = 1; input: pSILAC ratios for proteins ; 
+% setting = 2; input: pSILAC ratios for proteins and free_Lys; 
+% setting = 3; input: pSILAC ratios for proteins and free_Lys, absolute concentrations of free-Lys, individual protein bound Lys and total Lys
+
+input_file  = "input_setting_2.xlsx"; %select appropriate input file for different settings
+ 
+%output file is generated with a prefix 'results_Corrected_T50' and/or 'results_Apparent_T50' to the input file name(e.g. results_input_setting_3.xlsx)
+
+bin_size = 30; % number of proteins to fit each time; Choose between 100-10; Computation time is faster with the smaller number
+
+optimization_algorithm = 2; %default  % 1 = fmincon; 2 = lsqnonlin;
+
+number_of_timepoints = 5; % 3; %4; %5; % including 0 day;
+
+purity_of_SILAC_food = 99; %  A value (in %) to represent the purity of SILAC food; ranges between 90-100%
+
+ 
+apparent_T50_calculation = 1; % 1= yes (default); % 2=no;
