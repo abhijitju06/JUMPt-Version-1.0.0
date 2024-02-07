@@ -16,7 +16,7 @@
 
 ## Introduction <br>
 <div align="justify"> 
-JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determines the protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a novel differential equation-based mathematical model to calculate reliable and accurate protein turnover rates. The proposed method calculates individual proteins' half-lives (Corrected half-life) by fitting the dynamic data of unlabeled free Lys and protein-bound Lys from individual proteins. Besides, the program calculates proteins' apparent half-lives also using exponential functions.
+JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determines the protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a novel differential equation-based mathematical model to calculate reliable and accurate protein turnover rates. The proposed method calculates individual proteins' half-lives (Corrected half-life) by fitting the dynamic data of unlabeled free Lys and protein-bound Lys from individual proteins. Besides, the program calculates proteins' apparent half-lives also using exponential functions. <br>
 JUMPt is part of JUMP Software Suite (shortly JUMP), is an ongoing large software suite developed for the need of mass spectrometry (MS)- based proteomics, metabolomics, and the integration with genomics for network analysis at the level of systems biology. Currently, JUMP can handle protein/peptide database creation, database search, identification filtering, quantification, network, proteogenomic, and protein turnover analysis.
 </div>
 
@@ -34,8 +34,8 @@ In the current version <br>
 
 ## Software and Hardware Requirements <br>
 <div align="justify"> 
-The program was written in MATLAB language. The program runs on any Linux, Mac, or Windows computer with MATLAB R2014 (The MathWorks, Inc., Natick, Massachusetts, United States) or the above version. The current JUMPt program has been successfully tested with MATLAB R2021 version on the system: 16 GB memory and 3.3 GHz CPU processors with six cores. The program needs more time to complete on the system with fewer core processors in the CPU.
-MATLAB toolbox needed: 
+The program was written in MATLAB language. The program runs on any Linux, Mac, or Windows computer with MATLAB R2014 (The MathWorks, Inc., Natick, Massachusetts, United States) or the above version. The current JUMPt program has been successfully tested with MATLAB R2021 version on the system: 16 GB memory and 3.3 GHz CPU processors with six cores. The program needs more time to complete on the system with fewer core processors in the CPU. <br>
+MATLAB toolbox needed: <br>
 - Global Optimization toolbox along with other basic toolboxes
 </div>
 
@@ -52,23 +52,23 @@ Figure 1
 
 ## Input File Preparation <br>
 <div align="justify"> 
-A testing dataset with 100 proteins is available for each setting. Besides, the testing dataset for different time points is also available for default setting 2. Like the testing dataset, the user must prepare the input data file with the information below.
-•	pSILAC proteins (mandatory)
-•	pSILAC free (unbound) Lys (optional)
-•	Free Lys concentration (required, as setting 2 is the default in the current version)
+A testing dataset with 100 proteins is available for each setting. Besides, the testing dataset for different time points is also available for default setting 2. Like the testing dataset, the user must prepare the input data file with the information below. <br>
+•	pSILAC proteins (mandatory) <br>
+•	pSILAC free (unbound) Lys (optional) <br>
+•	Free Lys concentration (required, as setting 2 is the default in the current version) <br>
 •	Lys concentration in individual proteins (optional)
 </div>
 
 ## Update the parameter file <br>
 <div align="justify"> 
-The JUMPt program requires a parameter file (JUMPt.parms). The user must specify the following parameters in the 'JUMPt.params' file.
-•	JUMPt setting 
-•	Input file name (along with the exact path)
-•	Bin size('bin_size') to fit proteins each time 
-•	MATLAB optimization algorithm
-•	Number of time points
-•	Purity of SILAC food 
-•	Whether the user wants to calculate the apparent half-life
+The JUMPt program requires a parameter file (JUMPt.parms). The user must specify the following parameters in the 'JUMPt.params' file. <br>
+•	JUMPt setting <br>
+•	Input file name (along with the exact path) <br>
+•	Bin size('bin_size') to fit proteins each time <br>
+•	MATLAB optimization algorithm <br>
+•	Number of time points <br>
+•	Purity of SILAC food <br>
+•	Whether the user wants to calculate the apparent half-life <br>
 </div>
 
 ## Run the JUMPt program (Demo data set) <br>
