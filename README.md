@@ -13,11 +13,13 @@
 •	Acknowledgments <br>
 •	References <br>
 </div>
+
 ## Introduction <br>
 <div align="justify"> 
 JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determines the protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a novel differential equation-based mathematical model to calculate reliable and accurate protein turnover rates. The proposed method calculates individual proteins' half-lives (Corrected half-life) by fitting the dynamic data of unlabeled free Lys and protein-bound Lys from individual proteins. Besides, the program calculates proteins' apparent half-lives also using exponential functions.
 JUMPt is part of JUMP Software Suite (shortly JUMP), is an ongoing large software suite developed for the need of mass spectrometry (MS)- based proteomics, metabolomics, and the integration with genomics for network analysis at the level of systems biology. Currently, JUMP can handle protein/peptide database creation, database search, identification filtering, quantification, network, proteogenomic, and protein turnover analysis.
 </div>
+
 ## Release notes (Version 2.0.0) <br>
 <div align="justify"> 
 In the current version 
@@ -36,10 +38,12 @@ The program was written in MATLAB language. The program runs on any Linux, Mac, 
 MATLAB toolbox needed: 
 - Global Optimization toolbox along with other basic toolboxes
 </div>
+
 ## Installation <br>
 <div align="justify"> 
 Installation of the script is not required. Download all the files/folders to any working directory (e.g., /home/usr/JUMPt) as shown in Figure 1. 
 </div>
+
 
 ![Figure1](https://github.com/abhijitju06/JUMPt/assets/34911992/d5ff202e-c1a7-4d23-bb80-151f26b1028b)
 <p align="center">
@@ -54,6 +58,7 @@ A testing dataset with 100 proteins is available for each setting. Besides, the 
 •	Free Lys concentration (required, as setting 2 is the default in the current version)
 •	Lys concentration in individual proteins (optional)
 </div>
+
 ## Update the parameter file <br>
 <div align="justify"> 
 The JUMPt program requires a parameter file (JUMPt.parms). The user must specify the following parameters in the 'JUMPt.params' file.
@@ -65,17 +70,21 @@ The JUMPt program requires a parameter file (JUMPt.parms). The user must specify
 •	Purity of SILAC food 
 •	Whether the user wants to calculate the apparent half-life
 </div>
+
 ## Run the JUMPt program (Demo data set) <br>
 <div align="justify"> 
 Launch the MATLAB software and open the JUMPt main program file "Run_Main_File.m" in it, as shown in Figure 2. Press the "Run' button, as shown in the figure, to start the program. Once the program begins, it will show the progress of protein fitting and the successful completion (Figure 3).
 </div>
+
 ![Figure2](https://github.com/abhijitju06/JUMPt/assets/34911992/8a4aeaf1-d008-4a23-a0e6-6ef08033c1ca)
 <p align="center">
 Figure 2
 </p>
+
 <div align="justify"> 
 Nonlinear fitting of proteins and Lys data using ODE is computationally expensive, especially when the protein data is enormous (e.g.,> 1000 proteins). We divide the proteins into sets with bin sizes between 10-100 to reduce the computational complexity. The program finds the optimal degradation rates (turnover rates or half-lives) by fitting protein data (in setting-1) and free-Lys data (in setting-2 and setting-3).
 </div>
+
 ![Figure3](https://github.com/abhijitju06/JUMPt/assets/34911992/d2bf25a5-32e6-43e0-a8fd-8117dd000fa0)
 <p align="center">
 Figure 3
@@ -85,15 +94,18 @@ Figure 3
 <div align="justify"> 
 Two output Excel files are generated with the prefix 'results_Corrected_T50' and 'results_Apparent_T50' to the input file name. They will be rendered in the same folder where the input file is located. The results with proteins' corrected half-lives (in days) and confidence intervals will be saved to the output file. In addition, parameters used to calculate the half-lives will also be kept in the output file. Besides, the program will save the apparent half-lives in the output file.
 </div>
+
 ## Maintainers <br>
 <div align="justify"> 
 To submit bug reports and feature suggestions, please contact:
 Surendhar Reddy Chepyala (surendharreddy.chepyala@stjude.org), Junmin Peng (junmin.peng@stjude.org), Abhijit Dasgupta (abhijit.dasgupta@stjude.org), and Jay Yarbro (jay.yarbro@stjude.org). 
 </div>
+
 ## Acknowledgment <br>
 <div align="justify"> 
 We acknowledge St. Jude Children's Research Hospital, ALSAC (American Lebanese Syrian Associated Charities), and the National Institute of Health for supporting the development of the JUMP Software Suite.
 </div>
+
 ## References <br>
 <div align="justify"> 
 1. Chepyala et al., JUMPt: Comprehensive protein turnover modeling of in vivo pulse SILAC data by ordinary differential equations. Analytical chemistry (under review)
