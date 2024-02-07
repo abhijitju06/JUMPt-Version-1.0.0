@@ -13,7 +13,7 @@
 •	References <br>
 
 ## Introduction <br>
-JUMPt (JUMP-turnover) software determines the protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a novel differential equation-based mathematical model to calculate reliable and accurate protein turnover rates. The proposed method calculates individual proteins' half-lives (Corrected half-life) by fitting the dynamic data of unlabeled free Lys and protein-bound Lys from individual proteins. Besides, the program calculates proteins' apparent half-lives also using exponential functions.
+JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determines the protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a novel differential equation-based mathematical model to calculate reliable and accurate protein turnover rates. The proposed method calculates individual proteins' half-lives (Corrected half-life) by fitting the dynamic data of unlabeled free Lys and protein-bound Lys from individual proteins. Besides, the program calculates proteins' apparent half-lives also using exponential functions.
 JUMPt is part of JUMP Software Suite (shortly JUMP), is an ongoing large software suite developed for the need of mass spectrometry (MS)- based proteomics, metabolomics, and the integration with genomics for network analysis at the level of systems biology. Currently, JUMP can handle protein/peptide database creation, database search, identification filtering, quantification, network, proteogenomic, and protein turnover analysis.
 
 ## Release notes (Version 2.0.0) <br>
