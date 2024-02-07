@@ -7,7 +7,7 @@
 •	Installation <br>
 •	Input File Preparation <br>
 •	Update the parameter file <br>
-•	Run the JUMPt program <br> 
+•	Run the JUMPt program (Demo data set) <br> 
 •	Output file <br> 
 •	Maintainers <br>
 •	Acknowledgments <br>
