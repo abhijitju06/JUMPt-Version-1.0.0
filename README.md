@@ -2,7 +2,7 @@
 ## Contents <br>
 <div align="justify"> 
 •	Introduction <br>
-•	Release notes <br>
+•	Release notes (Version 2.0.0) <br>
 •	Software and Hardware Requirements <br>
 •	Installation <br>
 •	Input File Preparation <br>
@@ -90,7 +90,7 @@ Nonlinear fitting of proteins and Lys data using ODE is computationally expensiv
 Figure 3
 </p>
 
-## Output file information <br>
+## Output file <br>
 <div align="justify"> 
 Two output Excel files are generated with the prefix 'results_Corrected_T50' and 'results_Apparent_T50' to the input file name. They will be rendered in the same folder where the input file is located. The results with proteins' corrected half-lives (in days) and confidence intervals will be saved to the output file. In addition, parameters used to calculate the half-lives will also be kept in the output file. Besides, the program will save the apparent half-lives in the output file.
 </div>
@@ -108,12 +108,12 @@ We acknowledge St. Jude Children's Research Hospital, ALSAC (American Lebanese S
 
 ## References <br>
 <div align="justify"> 
-1. Chepyala et al., JUMPt: Comprehensive protein turnover modeling of in vivo pulse SILAC data by ordinary differential equations. Analytical chemistry (under review)
-2. Wang, X., et al., JUMP: a tag-based database search tool for peptide identification with high sensitivity and accuracy. Molecular & Cellular Proteomics, 2014. 13(12): p. 3663-3673.
-3. Wang, X., et al., JUMPm: A Tool for Large-Scale Identification of Metabolites in Untargeted Metabolomics. Metabolites, 2020. 10(5): p. 190.
-4. Li, Y., et al., JUMPg: an integrative proteogenomics pipeline identifying unannotated proteins in human brain and cancer cells. Journal of proteome research, 2016. 15(7): p. 2309-2320.
-5. Tan, H., et al., Integrative proteomics and phosphoproteomics profiling reveals dynamic signaling networks and bioenergetics pathways underlying T cell activation. Immunity, 2017. 46(3): p. 488-503.
-6. Peng, J., et al., Evaluation of multidimensional chromatography coupled with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein analysis: the yeast proteome. Journal of proteome research, 2003. 2(1): p. 43-50.
+1. Chepyala et al., JUMPt: Comprehensive protein turnover modeling of in vivo pulse SILAC data by ordinary differential equations. Analytical chemistry (under review) <br>
+2. Wang, X., et al., JUMP: a tag-based database search tool for peptide identification with high sensitivity and accuracy. Molecular & Cellular Proteomics, 2014. 13(12): p. 3663-3673. <br>
+3. Wang, X., et al., JUMPm: A Tool for Large-Scale Identification of Metabolites in Untargeted Metabolomics. Metabolites, 2020. 10(5): p. 190. <br>
+4. Li, Y., et al., JUMPg: an integrative proteogenomics pipeline identifying unannotated proteins in human brain and cancer cells. Journal of proteome research, 2016. 15(7): p. 2309-2320. <br>
+5. Tan, H., et al., Integrative proteomics and phosphoproteomics profiling reveals dynamic signaling networks and bioenergetics pathways underlying T cell activation. Immunity, 2017. 46(3): p. 488-503. <br>
+6. Peng, J., et al., Evaluation of multidimensional chromatography coupled with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein analysis: the yeast proteome. Journal of proteome research, 2003. 2(1): p. 43-50. <br>
 7. Niu, M., et al., Extensive peptide fractionation and y 1 ion-based interference detection method for enabling accurate quantification by isobaric labeling and mass spectrometry. Analytical chemistry, 2017. 89(5): p. 2956-2963.
 </div>
 
