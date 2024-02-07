@@ -22,14 +22,14 @@ JUMPt is part of JUMP Software Suite (shortly JUMP), is an ongoing large softwar
 
 ## Release notes (Version 2.0.0) <br>
 <div align="justify"> 
-In the current version 
-1. We assume that the mice's overall amount of proteins is unchanged over time as the mice used in this study are adults. 
-2. The Lys used in protein synthesis originates from the food intake, with the rest recycled through protein degradation. 
-3. Concentration of soluble Lys is conserved; the rate of free Lys absorbed from food is assumed to equal the rate excreted. 
-4. Three different settings, which represent simple to comprehensive inputs. Here, setting 2 is the default in the current version.
-5. Here, the default optimization algorithm is nonlinear least-squares.
-5. The current version supports different time point inputs, such as 3, 4, and 5 point inputs, including 0 days.
-6. This version can also calculate apparent half-lives.
+In the current version <br>
+1. We assume that the mice's overall amount of proteins is unchanged over time as the mice used in this study are adults. <br>
+2. The Lys used in protein synthesis originates from the food intake, with the rest recycled through protein degradation. <br>
+3. Concentration of soluble Lys is conserved; the rate of free Lys absorbed from food is assumed to equal the rate excreted. <br>
+4. Three different settings, which represent simple to comprehensive inputs. Here, setting 2 is the default in the current version. <br>
+5. Here, the default optimization algorithm is nonlinear least-squares. <br>
+5. The current version supports different time point inputs, such as 3, 4, and 5 point inputs, including 0 days. <br>
+6. This version can also calculate apparent half-lives. <br>
 </div>
 
 ## Software and Hardware Requirements <br>
