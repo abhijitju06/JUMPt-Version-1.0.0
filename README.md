@@ -1,8 +1,8 @@
-# JUMPt Version 2.0.0
+# JUMPt Version 1.1.0
 ## Contents <br>
 <div align="justify"> 
 •	Introduction <br>
-•	Release notes (Version 2.0.0) <br>
+•	Release notes (Version 1.1.0) <br>
 •	Software and Hardware Requirements <br>
 •	Installation <br>
 •	Input File Preparation <br>
@@ -20,7 +20,7 @@ JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determ
 JUMPt is part of JUMP Software Suite (shortly JUMP), is an ongoing large software suite developed for the need of mass spectrometry (MS)- based proteomics, metabolomics, and the integration with genomics for network analysis at the level of systems biology. Currently, JUMP can handle protein/peptide database creation, database search, identification filtering, quantification, network, proteogenomic, and protein turnover analysis.
 </div>
 
-## Release notes (Version 2.0.0) <br>
+## Release notes (Version 1.1.0) <br>
 <div align="justify"> 
 In the current version <br>
 1. We assume that the mice's overall amount of proteins is unchanged over time as the mice used in this study are adults. <br>
@@ -98,7 +98,7 @@ Two output Excel files are generated with the prefix 'results_Corrected_T50' and
 ## Maintainers <br>
 <div align="justify"> 
 To submit bug reports and feature suggestions, please contact:
-Surendhar Reddy Chepyala (surendharreddy.chepyala@stjude.org), Junmin Peng (junmin.peng@stjude.org), Abhijit Dasgupta (abhijit.dasgupta@stjude.org), and Jay Yarbro (jay.yarbro@stjude.org). 
+Surendhar Reddy Chepyala (surendharreddy.chepyala@stjude.org), Junmin Peng (junmin.peng@stjude.org), Abhijit Dasgupta (abhijit.dasgupta@stjude.org), Jay Yarbro (jay.yarbro@stjude.org), and Xusheng Wang (xusheng.wang@stjude.org). 
 </div>
 
 ## Acknowledgment <br>
