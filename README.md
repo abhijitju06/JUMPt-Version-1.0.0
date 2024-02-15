@@ -96,10 +96,8 @@ Two output Excel files are generated with the prefix 'results_Corrected_T50' and
 </div>
 
 ## Maintainers <br>
-<div align="justify"> 
 To submit bug reports and feature suggestions, please contact:
 Surendhar Reddy Chepyala (surendharreddy.chepyala@stjude.org), Junmin Peng (junmin.peng@stjude.org), Abhijit Dasgupta (abhijit.dasgupta@stjude.org), Jay Yarbro (jay.yarbro@stjude.org), and Xusheng Wang (xusheng.wang@stjude.org). 
-</div>
 
 ## Acknowledgment <br>
 <div align="justify"> 
